@@ -1,9 +1,5 @@
-
-
-Lab 06
-
-	Implement SQL Operators: Demonstrate the use of different types of
-operators in SQL with examples Special Operators, and Set Operations(UNION)
+--Lab 06
+--Implement SQL Operators: Demonstrate the use of different types of operators in SQL with examples Special Operators, and Set Operations(UNION)
 SELECT 'Special SQL Operators' AS Operations;
 SELECT * FROM Product;
 
