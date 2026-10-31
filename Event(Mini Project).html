@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h2>Event Registration System</h2>
+        <div class="badge">Admin Dashboard</div>
+    </header>
+
+    <div class="container">
+        <!-- Stats Row -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Attendees</h3>
+                <p id="attendee-count">2</p>
+            </div>
+            <div class="stat-card">
+                <h3>Active Events</h3>
+                <p>3</p>
+            </div>
+        </div>
+
+        <!-- Main Layout -->
+        <div class="grid-layout">
+            <!-- Registration Form -->
+            <div class="panel">
+                <h3>Register Attendee</h3>
+                <form id="regForm">
+                    <div class="field">
+                        <label>Full Name</label>
+                        <input type="text" id="name" placeholder="Enter name" required>
+                    </div>
+                    <div class="field">
+                        <label>Email Address</label>
+                        <input type="email" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="field">
+                        <label>Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter phone" required>
+                    </div>
+                    <div class="field">
+                        <label>Select Event</label>
+                        <select id="event">
+                            <option value="Tech Symposium 2026">Tech Symposium 2026</option>
+                            <option value="AI Workshop">AI Workshop</option>
+                            <option value="Annual Hackathon">Annual Hackathon</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Ticket Type</label>
+                        <select id="ticket">
+                            <option value="General">General</option>
+                            <option value="VIP">VIP</option>
+                            <option value="Student">Student</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary">Register Now</button>
+                </form>
+            </div>
+
+            <!-- Data Table -->
+            <div class="panel">
+                <h3>Registered List</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Event</th>
+                            <th>Ticket</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Dynamic rows appear here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
