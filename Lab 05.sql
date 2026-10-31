@@ -1,8 +1,5 @@
-Lab 05
-
-	Implement SQL Operators: Demonstrate the use of different types of
-operators in SQL with examples, including Arithmetic Operators, Logical
-Operators, Comparison Operators.
+--Lab 05
+--Implement SQL Operators: Demonstrate the use of different types of operators in SQL with examples, including Arithmetic Operators, Logical Operators, Comparison Operators.
 
 CREATE TABLE Product (
     ProductID INT,
