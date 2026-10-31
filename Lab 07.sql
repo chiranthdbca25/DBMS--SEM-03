@@ -1,6 +1,6 @@
-Lab -07 
-	Implement different types of Joins: Implement various types of joins in SQL, including Inner Join, Outer Join, and Natural Join, with suitable examples.
-Solution:
+--Lab -07 
+--Implement different types of Joins: Implement various types of joins in SQL, including Inner Join, Outer Join, and Natural Join, with suitable examples.
+--Solution:
 CREATE DATABASE Student_DB;
 USE Student_DB;
 
