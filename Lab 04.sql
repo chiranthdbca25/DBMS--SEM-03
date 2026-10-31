@@ -1,6 +1,5 @@
-Lab – 04
-
-	Implement SQL Functions: Conversion Functions, and Date Functions.
+--Lab – 04
+--Implement SQL Functions: Conversion Functions, and Date Functions.
 
 CREATE TABLE STUDENT (
     Student_ID INT,
